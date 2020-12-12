@@ -5,6 +5,16 @@ display: grid;
     padding: 10px;
 }
 
-.dialog .action{
+.Dialog .action{
     color: goldenrod;
+}
+.Message{
+    color: aqua;
+}
+.Messages{
+
+}
+
+.DialogsItem{
+
 }
