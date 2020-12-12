@@ -11,11 +11,11 @@ const MyPost = () => {
         {id: 3, post: 'Ну здарова чувак!', LikeCount: '32' }
     ]
 
+    let PostsElements = PostsData.map(p => <Post message={p.post} LikeCount={p.LikeCount}/>)
+
     return (
         <div className={s.DescriptionPost}>
-            <Post message={PostsData[0].post} LikeCount={PostsData[0].LikeCount}/>
-            <Post message={PostsData[1].post} LikeCount={PostsData[1].LikeCount}/>
-            <Post message={PostsData[2].post} LikeCount={PostsData[2].LikeCount}/>
+            {PostsElements}
         </div>
     )
 }
