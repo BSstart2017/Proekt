@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e51bceeb-883a-4d6c-af00-31ff5fee4cc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPost.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/MyPost/Post/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/MyPost/Post/Post.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Music/Music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Music/Music.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/News/News.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/News/News.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Settings/Settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Settings/Settings.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Profile/MyPost/Post" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,8 +52,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Node\my-app\src\Components\Profile\MyPost\Post" />
       <recent name="E:\Node\my-app\src\Components" />
+      <recent name="E:\Node\my-app\src\Components\Profile\MyPost\Post" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Node\my-app\src\Components\Profile" />
@@ -80,7 +73,8 @@
       <workItem from="1607615024739" duration="3402000" />
       <workItem from="1607670609566" duration="4361000" />
       <workItem from="1607702926201" duration="2734000" />
-      <workItem from="1607758388645" duration="609000" />
+      <workItem from="1607758388645" duration="1494000" />
+      <workItem from="1607761914216" duration="2294000" />
     </task>
     <servers />
   </component>
