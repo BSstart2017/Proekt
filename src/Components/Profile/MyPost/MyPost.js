@@ -4,11 +4,18 @@ import Post from "./Post/Post";
 
 
 const MyPost = () => {
+
+    let PostsData = [
+        {id: 1, post: 'Че молчим на че не пишем а?', LikeCount: '9' },
+        {id: 2, post: 'Привет Мир!', LikeCount: '12' },
+        {id: 3, post: 'Ну здарова чувак!', LikeCount: '32' }
+    ]
+
     return (
         <div className={s.DescriptionPost}>
-            <Post message='Че молчим на че не пишем а?' LikeCount='9'/>
-            <Post message='Привет Мир!' LikeCount='3'/>
-            <Post message='Ну здарова чувак!' LikeCount='333'/>
+            <Post message={PostsData[0].post} LikeCount={PostsData[0].LikeCount}/>
+            <Post message={PostsData[1].post} LikeCount={PostsData[1].LikeCount}/>
+            <Post message={PostsData[2].post} LikeCount={PostsData[2].LikeCount}/>
         </div>
     )
 }
