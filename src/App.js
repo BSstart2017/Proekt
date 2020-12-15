@@ -7,16 +7,17 @@ import {BrowserRouter, Route} from "react-router-dom";
 import News from "./Components/News/News";
 import Music from "./Components/Music/Music";
 import Settings from "./Components/Settings/Settings";
+import TopFriends from "./Components/Friends/TopFriends"
 
-function App() {
+function App(props) {
     return (
         <BrowserRouter>
             <div className="app-wrapper">
                 <Header/>
                 <Navbar/>
                 <div className="app-wrapper-content">
-                    <Route path='/Profile' render={ () => <Profile/>}/>
-                    <Route path='/Dialogs' render={ () => <Dialogs/>}/>
+                    <Route path='/Profile' render={ () => <Profile State={props.State.ProfilePage}/>}/>
+                    <Route path='/Dialogs' render={ () => <Dialogs State={props.State.DialogsPage}/>}/>
                     <Route path='/News' render={ () => <News/>}/>
                     <Route path='/Music' render={ () => <Music/>}/>
                     <Route path='/Settings' render={ () => <Settings/>}/>
