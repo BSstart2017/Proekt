@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e51bceeb-883a-4d6c-af00-31ff5fee4cc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Friends/TopFriends.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Friends/TopFriends.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/State.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/State.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +70,7 @@
       <workItem from="1607761914216" duration="4798000" />
       <workItem from="1607776573515" duration="6691000" />
       <workItem from="1607956441133" duration="1891000" />
-      <workItem from="1608016416325" duration="5593000" />
+      <workItem from="1608016416325" duration="7031000" />
     </task>
     <servers />
   </component>
