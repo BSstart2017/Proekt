@@ -10,14 +10,14 @@ const MyPost = (props) => {
     let NewPostElement = React.createRef();
 
     let NewPost = () => {
-        debugger;
+        
         let text = NewPostElement.current.value;
         props.AddPost(text);
+        NewPostElement.current.value = '';
     }
 
     return (
         <div>
-            <div className={s.DescriptionPost}>{PostsElements}</div>
             <div className={s.DispleiblockAddPost}>
                 <h3>Мои посты!</h3>
                 <div>
@@ -27,8 +27,9 @@ const MyPost = (props) => {
                     <button onClick={NewPost}>Добавить пост</button>
                 </div>
             </div>
+            <div className={s.DescriptionPost}>{PostsElements}</div>
         </div>
-)
+    )
 }
 
 export default MyPost;
