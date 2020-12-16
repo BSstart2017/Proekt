@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e51bceeb-883a-4d6c-af00-31ff5fee4cc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/Message/NewMessage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/State.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Message/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Message/Message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileInfo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -71,6 +71,7 @@
       <workItem from="1607776573515" duration="6691000" />
       <workItem from="1607956441133" duration="1891000" />
       <workItem from="1608016416325" duration="7031000" />
+      <workItem from="1608102263305" duration="1552000" />
     </task>
     <servers />
   </component>

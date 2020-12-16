@@ -2,6 +2,14 @@ import React from 'react';
 import s from './Profileinfo.module.css';
 
 const Profileinfo = () => {
+
+let NewPostElement = React.createRef();
+
+let AddPost = () => {
+    let text = NewPostElement.current.value;
+    alert(text);
+}
+
     return (
         <div>
             <div>
@@ -10,10 +18,10 @@ const Profileinfo = () => {
             <div className={s.DispleiblockAddPost}>
                 <h3>Мои посты!</h3>
                 <div>
-                    <textarea></textarea>
+                    <textarea ref={NewPostElement}></textarea>
                 </div>
                 <div>
-                    <button>Добавить пост</button>
+                    <button onClick={AddPost}>Добавить пост</button>
                 </div>
             </div>
         </div>
