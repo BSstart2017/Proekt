@@ -1,4 +1,6 @@
-import {renderEntireTree} from "../render";
+let renderEntireTree = () =>{
+    console.log('lialia');
+}
 
 let State = {
     ProfilePage: {
@@ -27,7 +29,7 @@ let State = {
     }
 }
 
-export let AddPost = () => {
+export const AddPost = () => {
 
     let NewPost = {
         id: 4,
@@ -40,9 +42,13 @@ export let AddPost = () => {
     renderEntireTree(State);
 }
 
-export let apdateNewPostText = (NewText) => {
+export const apdateNewPostText = (NewText) => {
     State.ProfilePage.newPostText = NewText;
     renderEntireTree(State);
+}
+
+export const subscribe = (observer) => {
+    renderEntireTree = observer;
 }
 
 export default State;
