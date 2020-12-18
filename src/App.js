@@ -16,8 +16,7 @@ function App(props) {
                 <div className="app-wrapper-content">
                     <Route path='/Profile' render={ () => <Profile
                         State={props.State.ProfilePage}
-                        AddPost={props.AddPost}
-                        apdateNewPostText={props.apdateNewPostText}/>}/>
+                        dispatch={props.dispatch}/>}/>
                     <Route path='/Dialogs' render={ () => <Dialogs State={props.State.DialogsPage}/>}/>
                     <Route path='/News' render={ () => <News/>}/>
                     <Route path='/Music' render={ () => <Music/>}/>

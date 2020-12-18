@@ -4,9 +4,11 @@
     <list default="true" id="e51bceeb-883a-4d6c-af00-31ff5fee4cc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/State.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,8 @@
       <workItem from="1608120531376" duration="5579000" />
       <workItem from="1608191203196" duration="1635000" />
       <workItem from="1608192898027" duration="661000" />
-      <workItem from="1608229478939" duration="1272000" />
+      <workItem from="1608229478939" duration="1613000" />
+      <workItem from="1608276265047" duration="1557000" />
     </task>
     <servers />
   </component>

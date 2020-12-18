@@ -25,30 +25,33 @@ let store = {
             ]
         }
     },
-    getState(){
-        return this._State;
-    },
     _callSubscriber(){
         console.log('lialia');
     },
-    AddPost() {
 
-        let NewPost = {
-            id: 4,
-            post: this._State.ProfilePage.newPostText,
-            LikeCount: '0'
-        };
-
-        this._State.ProfilePage.PostsData.push(NewPost);
-        this._State.ProfilePage.newPostText = ('');
-        this._callSubscriber(this._State);
-    },
-    apdateNewPostText(NewText) {
-        this._State.ProfilePage.newPostText = NewText;
-        this._callSubscriber(this._State);
+    getState(){
+        return this._State;
     },
     subscribe(observer) {
         this._callSubscriber = observer;
+    },
+
+    dispatch(action){
+        if (action.type === 'ADD-POST'){
+            let NewPost = {
+                id: 4,
+                post: this._State.ProfilePage.newPostText,
+                LikeCount: '0'
+            };
+
+            this._State.ProfilePage.PostsData.push(NewPost);
+            this._State.ProfilePage.newPostText = ('');
+            this._callSubscriber(this._State);
+        }
+        else if (action.type === 'APDATENEWPOSTTEXT'){
+            this._State.ProfilePage.newPostText = action.NewText;
+            this._callSubscriber(this._State);
+        }
     }
 }
 
