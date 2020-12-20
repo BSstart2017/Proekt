@@ -4,8 +4,20 @@
     <list default="true" id="e51bceeb-883a-4d6c-af00-31ff5fee4cc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Message/NewMessage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Friends/TopFriends.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Friends/TopFriends.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Friends/TopFriends.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Friends/TopFriends.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Music/Music.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Music/Music.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Music/Music.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Music/Music.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/News/News.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/News/News.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/News/News.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Settings/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Settings/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Settings/Settings.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Settings/Settings.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/State.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +61,8 @@
       <recent name="E:\Node\my-app\src\Components\Profile\MyPost\Post" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Node\my-app\src\Components\Profile" />
       <recent name="E:\Node\my-app\src\Components\Navbar" />
+      <recent name="E:\Node\my-app\src\Components\Profile" />
       <recent name="E:\Node\my-app\src\Components\Header" />
     </key>
   </component>
@@ -78,6 +90,8 @@
       <workItem from="1608192898027" duration="661000" />
       <workItem from="1608229478939" duration="1613000" />
       <workItem from="1608276265047" duration="4136000" />
+      <workItem from="1608368291843" duration="1128000" />
+      <workItem from="1608447991767" duration="5114000" />
     </task>
     <servers />
   </component>

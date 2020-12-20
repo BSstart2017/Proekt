@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Navbar.module.css';
 import {NavLink} from "react-router-dom";
-import TopFriends from "../Friends/TopFriends";
+import TopFriends from "./Friends/TopFriends";
 
 const Navbar = () => {
     return (
