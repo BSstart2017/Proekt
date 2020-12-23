@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e51bceeb-883a-4d6c-af00-31ff5fee4cc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPostContainers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPost.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/dialogsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/dialogsReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profileReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -57,6 +57,8 @@
       <recent name="E:\Node\my-app\src\Components\Profile\MyPost\Post" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Node\my-app\src\Components\Dialogs" />
+      <recent name="E:\Node\my-app\src\Components\Profile\MyPost" />
       <recent name="E:\Node\my-app\src\Components\Navbar" />
       <recent name="E:\Node\my-app\src\Components\Profile" />
       <recent name="E:\Node\my-app\src\Components\Header" />
@@ -92,7 +94,9 @@
       <workItem from="1608475795742" duration="737000" />
       <workItem from="1608478366429" duration="2372000" />
       <workItem from="1608481354651" duration="2447000" />
-      <workItem from="1608484235240" duration="603000" />
+      <workItem from="1608484235240" duration="831000" />
+      <workItem from="1608622626335" duration="4030000" />
+      <workItem from="1608711092253" duration="6054000" />
     </task>
     <servers />
   </component>
