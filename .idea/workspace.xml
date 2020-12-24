@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e51bceeb-883a-4d6c-af00-31ff5fee4cc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Users/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Users/Users.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Users/UsersContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/usersReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPostContainers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPostContainers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/State.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/dialogsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/dialogsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profileReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +55,11 @@
       <recent name="E:\Node\my-app\src\Components\Profile\MyPost\Post" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Node\my-app\src\Components" />
       <recent name="E:\Node\my-app\src\Components\Dialogs" />
       <recent name="E:\Node\my-app\src\Components\Profile\MyPost" />
       <recent name="E:\Node\my-app\src\Components\Navbar" />
       <recent name="E:\Node\my-app\src\Components\Profile" />
-      <recent name="E:\Node\my-app\src\Components\Header" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -95,7 +95,8 @@
       <workItem from="1608484235240" duration="831000" />
       <workItem from="1608622626335" duration="4030000" />
       <workItem from="1608711092253" duration="6401000" />
-      <workItem from="1608729036373" duration="3783000" />
+      <workItem from="1608729036373" duration="5243000" />
+      <workItem from="1608799163351" duration="7729000" />
     </task>
     <servers />
   </component>
