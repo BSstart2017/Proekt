@@ -4,12 +4,7 @@
     <list default="true" id="e51bceeb-883a-4d6c-af00-31ff5fee4cc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPostContainers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPost/MyPostContainers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/UsersContainer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +93,7 @@
       <workItem from="1608799163351" duration="7729000" />
       <workItem from="1608822227544" duration="1809000" />
       <workItem from="1608962781539" duration="140000" />
-      <workItem from="1608962951776" duration="2737000" />
+      <workItem from="1608962951776" duration="4278000" />
     </task>
     <servers />
   </component>
