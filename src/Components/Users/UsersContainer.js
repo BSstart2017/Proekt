@@ -1,26 +1,35 @@
 import {connect} from "react-redux";
 import Users from "./Users";
-import {fallowAC, setUsersAC, unfallowAC} from "../../Redux/usersReducer";
+import {fallowAC, setCurrentPageAC, setTotalUserCountAC, setUsersAC, unfallowAC} from "../../Redux/usersReducer";
 
 
 
 const mapStateToProps = (state) => {
     return {
-        users: state.UsersPage.users
+        users: state.UsersPage.users,
+        pageSize: state.UsersPage.pageSize,
+        totalUsersCount: state.UsersPage.totalUsersCount,
+        currentPage: state.UsersPage.currentPage
     }
 }
 
 const mapDispatchToProps = (dispatch) =>{
     return {
-        fallowAC: (userId) => {
+        fallow: (userId) => {
             dispatch(fallowAC(userId))
         },
-        unfallowAC: (userId) => {
+        unfallow: (userId) => {
             dispatch(unfallowAC(userId))
 
         },
-        setUsersAC: (users) => {
+        setUsers: (users) => {
             dispatch(setUsersAC(users))
+        },
+        setCurrentPage: (pageNumber) => {
+            dispatch(setCurrentPageAC(pageNumber))
+        },
+        setTotalUserCount: (totalCount) => {
+            dispatch(setTotalUserCountAC(totalCount))
         }
     }
 }
