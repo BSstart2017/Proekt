@@ -5,7 +5,7 @@ import {
     setCurrentPage,
     setTotalUserCount,
     setUsers,
-    toggleIsFetchingt,
+    toggleIsFetching,
     unfallow
 } from "../../Redux/usersReducer";
 import * as axios from "axios";
@@ -14,10 +14,10 @@ import PreLoader from "../Common/Preloader/Preloader";
 
 class UserContainer extends React.Component {
     componentDidMount() {
-        this.props.toggleisfething(true);
+        this.props.toggleIsFetching (true);
         axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${this.props.currentPage}&count=${this.props.pageSize}`)
             .then(response => {
-                this.props.toggleisfething (false);
+                this.props.toggleIsFetching (false);
                 this.props.setUsers(response.data.items);
                 this.props.setTotalUserCount(response.data.totalCount);
             });
@@ -25,10 +25,10 @@ class UserContainer extends React.Component {
 
     onPageChanged = (pageNumber) => {
         this.props.setCurrentPage(pageNumber);
-        this.props.toggleisfething(true);
+        this.props.toggleIsFetching(true);
         axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${pageNumber}&count=${this.props.pageSize}`)
             .then(response => {
-                this.props.toggleisfething(false);
+                this.props.toggleIsFetching(false);
                 this.props.setUsers(response.data.items);
             });
     }
@@ -63,7 +63,7 @@ const UsersContainer = connect(mapStateToProps, {
     setCurrentPage,
     setTotalUserCount,
     setUsers,
-    toggleIsFetchingt,
+    toggleIsFetching,
     unfallow
 })(UserContainer);
 
