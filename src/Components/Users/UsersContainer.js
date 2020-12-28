@@ -1,12 +1,12 @@
 import React from 'react';
 import {connect} from "react-redux";
 import {
-    fallowAC,
-    setCurrentPageAC,
-    setTotalUserCountAC,
-    setUsersAC,
-    toggleIsFetchingtAC,
-    unfallowAC
+    fallow,
+    setCurrentPage,
+    setTotalUserCount,
+    setUsers,
+    toggleIsFetchingt,
+    unfallow
 } from "../../Redux/usersReducer";
 import * as axios from "axios";
 import Users from "./Users";
@@ -58,30 +58,13 @@ const mapStateToProps = (state) => {
     }
 }
 
-const mapDispatchToProps = (dispatch) =>{
-    return {
-        fallow: (userId) => {
-            dispatch(fallowAC(userId))
-        },
-        unfallow: (userId) => {
-            dispatch(unfallowAC(userId))
-
-        },
-        setUsers: (users) => {
-            dispatch(setUsersAC(users))
-        },
-        setCurrentPage: (pageNumber) => {
-            dispatch(setCurrentPageAC(pageNumber))
-        },
-        setTotalUserCount: (totalCount) => {
-            dispatch(setTotalUserCountAC(totalCount))
-        },
-        toggleisfething: (isFetching) => {
-            dispatch(toggleIsFetchingtAC(isFetching))
-        }
-    }
-}
-
-const UsersContainer = connect(mapStateToProps, mapDispatchToProps)(UserContainer);
+const UsersContainer = connect(mapStateToProps, {
+    fallow,
+    setCurrentPage,
+    setTotalUserCount,
+    setUsers,
+    toggleIsFetchingt,
+    unfallow
+})(UserContainer);
 
 export default UsersContainer;

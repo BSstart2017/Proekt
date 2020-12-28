@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e51bceeb-883a-4d6c-af00-31ff5fee4cc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Common/Preloader/Preloader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/UsersContainer.js" afterDir="false" />
@@ -97,7 +96,8 @@
       <workItem from="1608962781539" duration="140000" />
       <workItem from="1608962951776" duration="5045000" />
       <workItem from="1608993885088" duration="4918000" />
-      <workItem from="1609137372067" duration="5554000" />
+      <workItem from="1609137372067" duration="5703000" />
+      <workItem from="1609155776354" duration="1422000" />
     </task>
     <servers />
   </component>

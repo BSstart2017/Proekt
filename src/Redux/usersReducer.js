@@ -51,11 +51,11 @@ const usersReducer = (state = initialState, action) => {
     }
 }
 
-export const fallowAC = (userId) => ({type: FALLOW, userId})
-export const unfallowAC = (userId) => ({type: UNFALLOW, userId})
-export const setUsersAC = (users) => ({type: SET_USERS, users})
-export const setCurrentPageAC = (currentPage) => ({type: SET_CURRENT_PAGE, currentPage})
-export const setTotalUserCountAC = (totalUsersCount) => ({type: SET_TOTAL_USERS_COUNT, count: totalUsersCount})
-export const toggleIsFetchingtAC = (isFetching) => ({type: TOGGLE_IS_FETCHING, isFetching})
+export const fallow = (userId) => ({type: FALLOW, userId})
+export const unfallow = (userId) => ({type: UNFALLOW, userId})
+export const setUsers = (users) => ({type: SET_USERS, users})
+export const setCurrentPage = (currentPage) => ({type: SET_CURRENT_PAGE, currentPage})
+export const setTotalUserCount = (totalUsersCount) => ({type: SET_TOTAL_USERS_COUNT, count: totalUsersCount})
+export const toggleIsFetchingt = (isFetching) => ({type: TOGGLE_IS_FETCHING, isFetching})
 
 export default usersReducer;
