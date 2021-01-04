@@ -12,7 +12,7 @@ let Users = (props) => {
     for (let i = 1; i <= pagesCount; i++) {
         pages.push(i);
     }
-    debugger
+
     return <div>
         <div>
             {pages.map(p => {
@@ -32,7 +32,9 @@ let Users = (props) => {
                     </NavLink>
                 </div>
                 <div>{u.fallowed
-                    ? <button onClick={() => {
+                    ? <button disabled={props.followingInProgress.some(id => id === u.id)}
+                              onClick={() => {
+                        props.toggleFollowingProgress(true, u.id);
                         axios.delete(`https://social-network.samuraijs.com/api/1.0/auth/profile/${u.id}`, {
                             withCredentials: true,
                             headers: {
@@ -43,23 +45,25 @@ let Users = (props) => {
                                 if (response.data.resultCode === 0) {
                                     props.unfallow(u.id)
                                 }
+                                props.toggleFollowingProgress(false, u.id);
                             });
                     }}>Удалить</button>
-
-                    : <button
-                        onClick={() => {
-                            axios.post(`https://social-network.samuraijs.com/api/1.0/profile/${u.id}`, {}, {
-                            withCredentials: true,
-                            headers: {
-                                "API-KEY": "09ddd3b4-64ae-492a-b0ea-82f76c89251b"
-                            }
-                        })
-                            .then(response => {
-                                if (response.data.resultCode === 0) {
-                                    props.fallow(u.id)
-                                }
-                            })
-                        }}>Добавить</button>}
+                    : <button disabled={props.followingInProgress.some(id => id === u.id)}
+                              onClick={() => {
+                                  props.toggleFollowingProgress(true, u.id);
+                                  axios.post(`https://social-network.samuraijs.com/api/1.0/profile/${u.id}`, {}, {
+                                      withCredentials: true,
+                                      headers: {
+                                          "API-KEY": "09ddd3b4-64ae-492a-b0ea-82f76c89251b"
+                                      }
+                                  })
+                                      .then(response => {
+                                          if (response.data.resultCode === 0) {
+                                              props.fallow(u.id)
+                                          }
+                                      })
+                                  props.toggleFollowingProgress(false, u.id);
+                              }}>Добавить</button>}
 
                         </div>
                         </span>
