@@ -2,6 +2,7 @@ import React from 'react';
 import s from './Users.module.css';
 import PhotoAvaters from './../../assets/img/photoAvatar.png';
 import {NavLink} from "react-router-dom";
+import * as axios from "axios";
 
 let Users = (props) => {
 
@@ -11,7 +12,7 @@ let Users = (props) => {
     for (let i = 1; i <= pagesCount; i++) {
         pages.push(i);
     }
-
+    debugger
     return <div>
         <div>
             {pages.map(p => {
@@ -25,29 +26,51 @@ let Users = (props) => {
             props.users.map(u => <div key={u.id}>
             <span>
                 <div>
-                    <NavLink to={'/profile/' + u.id} >
+                    <NavLink to={'/profile/' + u.id}>
                     <img src={u.photos.small != null ? u.photos.small : PhotoAvaters} className={s.userPhoto}
                          alt='noPhoto'/>
                     </NavLink>
                 </div>
-                <div>
-                    {u.fallowed
-                        ? <button onClick={() => {
-                            props.unfallow(u.id)
-                        }}>Удалить</button>
-                        : <button onClick={() => {
-                            props.fallow(u.id)
+                <div>{u.fallowed
+                    ? <button onClick={() => {
+                        axios.delete(`https://social-network.samuraijs.com/api/1.0/auth/profile/${u.id}`, {
+                            withCredentials: true,
+                            headers: {
+                                "API-KEY": "09ddd3b4-64ae-492a-b0ea-82f76c89251b"
+                            }
+                        })
+                            .then(response => {
+                                if (response.data.resultCode === 0) {
+                                    props.unfallow(u.id)
+                                }
+                            });
+                    }}>Удалить</button>
+
+                    : <button
+                        onClick={() => {
+                            axios.post(`https://social-network.samuraijs.com/api/1.0/profile/${u.id}`, {}, {
+                            withCredentials: true,
+                            headers: {
+                                "API-KEY": "09ddd3b4-64ae-492a-b0ea-82f76c89251b"
+                            }
+                        })
+                            .then(response => {
+                                if (response.data.resultCode === 0) {
+                                    props.fallow(u.id)
+                                }
+                            })
                         }}>Добавить</button>}
-                </div>
-            </span>
+
+                        </div>
+                        </span>
                 <span>
-                 <div>{u.name}</div>
-                <div>{u.status}</div>
-            </span>
+                        <div>{u.name}</div>
+                        <div>{u.status}</div>
+                        </span>
                 <span>
-                 <div>{"u.location.country"}</div>
-                <div>{"u.location.city"}</div>
-            </span>
+                        <div>{"u.location.country"}</div>
+                        <div>{"u.location.city"}</div>
+                        </span>
             </div>)
         }
     </div>
