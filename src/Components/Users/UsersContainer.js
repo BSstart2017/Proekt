@@ -1,38 +1,22 @@
 import React from 'react';
 import {connect} from "react-redux";
 import {
-    fallow,
     setCurrentPage,
-    setTotalUserCount,
-    setUsers,
-    toggleIsFetching,
-    unfallow,
-    toggleFollowingProgress
+    toggleFollowingProgress,
+    getUsers
 } from "../../Redux/usersReducer";
 import Users from "./Users";
 import PreLoader from "../Common/Preloader/Preloader";
-import {usersAPI} from "../../api/api";
+
 
 
 class UserContainer extends React.Component {
     componentDidMount() {
-        this.props.toggleIsFetching(true);
-
-        usersAPI.getUsers(this.props.currentPage, this.props.pageSize).then(data => {
-            this.props.toggleIsFetching(false);
-            this.props.setUsers(data.items);
-            this.props.setTotalUserCount(data.totalcount);
-        });
+        this.props.getUsers(this.props.currentPage, this.props.pageSize);
     }
 
     onPageChanged = (pageNumber) => {
-        this.props.setCurrentPage(pageNumber);
-        this.props.toggleIsFetching(true);
-
-        usersAPI.getUsers(pageNumber, this.props.pageSize).then(data => {
-            this.props.toggleIsFetching(false);
-            this.props.setUsers(data.items);
-        });
+        this.props.getUsers(pageNumber, this.props.pageSize);
     }
 
     render() {
@@ -45,8 +29,7 @@ class UserContainer extends React.Component {
                    users={this.props.users}
                    fallow={this.props.fallow}
                    unfallow={this.props.unfallow}
-                   followingInProgress={this.props.followingInProgress}
-                   toggleFollowingProgress={this.props.toggleFollowingProgress}/>
+                   followingInProgress={this.props.followingInProgress}/>
         </>
     }
 }
@@ -62,14 +45,8 @@ const mapStateToProps = (state) => {
     }
 }
 
-const UsersContainer = connect(mapStateToProps, {
-    fallow,
+export default connect(mapStateToProps, {
     setCurrentPage,
-    setTotalUserCount,
-    setUsers,
-    toggleIsFetching,
-    unfallow,
-    toggleFollowingProgress
+    toggleFollowingProgress,
+    getUsers
 })(UserContainer);
-
-export default UsersContainer;
