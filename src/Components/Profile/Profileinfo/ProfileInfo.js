@@ -12,7 +12,7 @@ const Profileinfo = (props) => {
     return (
         <div>
             <div><img src={props.profile.photos.large} alt='ava'/></div>
-            <ProfileStatus status={"Это мой статус детка!!"}/>
+            <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
             <div>{props.profile.fullName}</div>
             <div>{props.profile.aboutMe}</div>
             <div>{props.profile.lookingForAJobDescription}</div>
