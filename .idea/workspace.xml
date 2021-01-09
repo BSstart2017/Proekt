@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e51bceeb-883a-4d6c-af00-31ff5fee4cc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileStatus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profileReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +122,7 @@
       <workItem from="1610180174053" duration="1240000" />
       <workItem from="1610181935836" duration="1776000" />
       <workItem from="1610183759432" duration="1709000" />
+      <workItem from="1610212777982" duration="324000" />
     </task>
     <servers />
   </component>
