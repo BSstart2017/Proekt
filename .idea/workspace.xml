@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e51bceeb-883a-4d6c-af00-31ff5fee4cc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Login/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileStatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +52,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -122,7 +128,13 @@
       <workItem from="1610180174053" duration="1240000" />
       <workItem from="1610181935836" duration="1776000" />
       <workItem from="1610183759432" duration="1709000" />
-      <workItem from="1610212777982" duration="324000" />
+      <workItem from="1610212777982" duration="657000" />
+      <workItem from="1610261719382" duration="1536000" />
+      <workItem from="1610263658251" duration="1668000" />
+      <workItem from="1610353158328" duration="619000" />
+      <workItem from="1610353828813" duration="82000" />
+      <workItem from="1610353960348" duration="221000" />
+      <workItem from="1610354216380" duration="1867000" />
     </task>
     <servers />
   </component>
