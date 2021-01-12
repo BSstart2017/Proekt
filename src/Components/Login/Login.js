@@ -2,10 +2,7 @@ import React from 'react';
 import {Field, reduxForm} from "redux-form";
 
 
-
-
-const  LoginForm = (props) => {
-    console.log('Render suka');
+const LoginForm = (props) => {
     return (
         <form onSubmit={props.handleSubmit}>
             <div><Field placeholder={"Login"} name={"login"} component={"input"}/></div>
@@ -16,10 +13,9 @@ const  LoginForm = (props) => {
     )
 }
 
-const LoginReduxForm = reduxForm({form:'login'})(LoginForm)
+const LoginReduxForm = reduxForm({form: 'login'})(LoginForm)
 
 const Login = () => {
-
     const onSubmit = (formData) => {
         console.log(formData);
     };
