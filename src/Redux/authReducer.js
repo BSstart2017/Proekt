@@ -30,7 +30,7 @@ export const setUserAuthData = (userId, email, login, iaAuth) => ({type: SET_USE
         {userId,  email, login, iaAuth}})
 
 export const getUserAuthData = () => (dispatch) => {
-        authAPI.me()
+        return authAPI.me()
             .then(response => {
                 if (response.data.resultCode === 0){
                     let {id, login, email} =response.data.data;
@@ -46,7 +46,6 @@ export const login = (email, password, rememberMe) => (dispatch) => {
                 dispatch(getUserAuthData())
             }
             else {
-                alert({message})
                 let message = response.data.messages.length > 0 ? response.data.message[0] : "Some error";
                 dispatch(stopSubmit("login", {_error: message}))
             }

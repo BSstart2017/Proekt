@@ -16,8 +16,7 @@ const LoginForm = (props) => {
                         validate={[required, maxLength20]}/></div>
             <div><Field placeholder={"Password"} name={"password"} component={Input} type={"password"}
                         validate={[required, maxLength20]}/></div>
-            <div><Field type={"checkbox"} name={"rememberMe"} component={Input}
-                        validate={[required]}/>Запомните меня</div>
+            <div><Field type={"checkbox"} name={"rememberMe"} component={Input}/>Запомните меня</div>
             {props.error && <div className={style.FormSummaryError}>props.error</div>}
             <div><button>Залогиниться</button></div>
         </form>
