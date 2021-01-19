@@ -16,7 +16,6 @@ const Profileinfo = (props) => {
             <div>{props.profile.fullName}</div>
             <div>{props.profile.aboutMe}</div>
             <div>{props.profile.lookingForAJobDescription}</div>
-
         </div>
     )
 }

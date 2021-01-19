@@ -1,54 +1,21 @@
 import React from 'react';
-import s from './Users.module.css';
-import PhotoAvaters from './../../assets/img/photoAvatar.png';
-import {NavLink} from "react-router-dom";
-import {usersAPI} from "../../api/api";
+import Paginator from "../Common/Paginator/Paginator";
+import User from "./User";
 
-let Users = (props) => {
-
-    let pagesCount = Math.ceil(props.totalUsersCount / props.pageSize);
-
-    let pages = [];
-    for (let i = 1; i <= pagesCount; i++) {
-        pages.push(i);
-    }
-
+let Users = ({currentPage, totalUsersCount, onPageChanged, pageSize,
+                 users, followingInProgress, unfollow, follow}) => {
     return <div>
+        <Paginator currentPage={currentPage} onPageChanged={onPageChanged}
+                   totalUsersCount={totalUsersCount} pageSize={pageSize}/>
         <div>
-            {pages.map(p => {
-                return <span className={props.currentPage === p && s.currentActive}
-                             onClick={() => {
-                                 props.onPageChanged(p)
-                             }}>{p}</span>
-            })}
+            {users.map(u => <User user={u}
+                                  followingInProgress={followingInProgress}
+                                  unfollow={unfollow}
+                                  follow={follow}
+                                  key={u.id}/>
+            )}
         </div>
-        {
-            props.users.map(u => <div key={u.id}>
-            <span>
-                <div>
-                    <NavLink to={'/profile/' + u.id}>
-                    <img src={u.photos.small != null ? u.photos.small : PhotoAvaters} className={s.userPhoto}
-                         alt='noPhoto'/>
-                    </NavLink>
-                </div>
-                <div>{u.fallowed
-                    ? <button disabled={props.followingInProgress.some(id => id === u.id)}
-                              onClick={() => {usersAPI.unfollow(u.id)} }>Удалить</button>
-                    : <button disabled={props.followingInProgress.some(id => id === u.id)}
-                              onClick={() => {usersAPI.follow(u.id)} }>Добавить</button>}
 
-                        </div>
-                        </span>
-                <span>
-                        <div>{u.name}</div>
-                        <div>{u.status}</div>
-                        </span>
-                <span>
-                        <div>{"u.location.country"}</div>
-                        <div>{"u.location.city"}</div>
-                        </span>
-            </div>)
-        }
     </div>
 }
 

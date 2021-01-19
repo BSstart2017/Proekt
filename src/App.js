@@ -18,8 +18,8 @@ import PreLoader from "./Components/Common/Preloader/Preloader";
 
 class App extends Component {
 
-    componentDidMount() {
-        this.props.initializedApp();
+   componentDidMount() {
+          this.props.initializedApp();
     }
 
     render() {

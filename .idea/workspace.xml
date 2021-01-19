@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e51bceeb-883a-4d6c-af00-31ff5fee4cc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Redux/profileReducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/Paginator/Paginator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/Paginator/Paginators.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Users/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/object-helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/FormsControl/FormsControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/FormsControl/FormsControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Users/Users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/Users.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/UsersContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/appReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/appReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/authReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profileReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/usersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/usersReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-app2 — копия/Proekt" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,18 +68,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Node\my-app\src\Components\Users" />
+      <recent name="E:\Node\my-app\src\Components\Common\Paginator" />
       <recent name="E:\Node\my-app\src\Redux" />
       <recent name="E:\Node\my-app\src\Components\Profile\Profileinfo" />
-      <recent name="E:\Node\my-app\src\Components\Users" />
       <recent name="E:\Node\my-app\src\Components" />
-      <recent name="E:\Node\my-app\src\Components\Profile\MyPost\Post" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Node\my-app\src\Components\Common\Paginator" />
+      <recent name="E:\Node\my-app\src\utils" />
       <recent name="E:\Node\my-app\src\Components\Header" />
       <recent name="E:\Node\my-app\src\Components" />
       <recent name="E:\Node\my-app\src\Components\Dialogs" />
-      <recent name="E:\Node\my-app\src\Components\Profile\MyPost" />
-      <recent name="E:\Node\my-app\src\Components\Navbar" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.Moi pervi test 1">
@@ -219,7 +233,18 @@
       <workItem from="1610819665612" duration="900000" />
       <workItem from="1610956613426" duration="633000" />
       <workItem from="1610958664629" duration="1766000" />
-      <workItem from="1610960475865" duration="407000" />
+      <workItem from="1610960475865" duration="774000" />
+      <workItem from="1610982588961" duration="1016000" />
+      <workItem from="1610984150237" duration="1599000" />
+      <workItem from="1610987891289" duration="1812000" />
+      <workItem from="1610989750789" duration="1773000" />
+      <workItem from="1610991567363" duration="1774000" />
+      <workItem from="1610993400040" duration="1758000" />
+      <workItem from="1611032731406" duration="387000" />
+      <workItem from="1611033164150" duration="15000" />
+      <workItem from="1611033740138" duration="1446000" />
+      <workItem from="1611035646246" duration="779000" />
+      <workItem from="1611036581690" duration="1142000" />
     </task>
     <servers />
   </component>
@@ -237,17 +262,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Redux/profileReducer.test.js</url>
-          <line>29</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
