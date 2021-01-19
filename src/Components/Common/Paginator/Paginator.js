@@ -3,7 +3,7 @@ import s from './Paginators.module.css';
 
 
 let Paginator = ({totalUsersCount, pageSize, currentPage, onPageChanged}) => {
-debugger
+
     let pagesCount = Math.ceil(totalUsersCount / pageSize);
 
     let pages = [];

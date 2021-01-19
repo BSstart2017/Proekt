@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e51bceeb-883a-4d6c-af00-31ff5fee4cc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Common/Paginator/Paginator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Common/Paginator/Paginators.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Users/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/object-helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Common/FormsControl/FormsControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/FormsControl/FormsControls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Users/Users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/Users.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/UsersContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/appReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/appReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/authReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profileReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/usersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/usersReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Common/Paginator/Paginator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Common/Paginator/Paginator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-app2 — копия/Proekt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Profile/Profileinfo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,10 +60,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Node\my-app\src\Components\Profile\Profileinfo" />
       <recent name="E:\Node\my-app\src\Components\Users" />
       <recent name="E:\Node\my-app\src\Components\Common\Paginator" />
       <recent name="E:\Node\my-app\src\Redux" />
-      <recent name="E:\Node\my-app\src\Components\Profile\Profileinfo" />
       <recent name="E:\Node\my-app\src\Components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -82,65 +74,83 @@
       <recent name="E:\Node\my-app\src\Components\Dialogs" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Moi pervi test 1">
-    <configuration name="Moi pervi test 1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.ProfileStatus component.after creation &lt;span&gt; should be displayed">
+    <configuration name="ProfileStatus component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/Redux/profileReducer.test.js" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileStatus.test.js" />
       <test-names>
-        <test-name value="Moi pervi test 1" />
+        <test-name value="ProfileStatus component" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="renders learn react link (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="ProfileStatus component.after creation &lt;input&gt; shouldn't be displayed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/Redux/profileReducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileStatus.test.js" />
       <test-names>
-        <test-name value="renders learn react link" />
+        <test-name value="ProfileStatus component" />
+        <test-name value="after creation &lt;input&gt; shouldn't be displayed" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="renders learn react link dcfsdf" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="ProfileStatus component.after creation &lt;span&gt; should be displayed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/Redux/profileReducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileStatus.test.js" />
       <test-names>
-        <test-name value="renders learn react link dcfsdf" />
+        <test-name value="ProfileStatus component" />
+        <test-name value="after creation &lt;span&gt; should be displayed" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="ProfileStatus component.callback should be called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-file value="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileStatus.test.js" />
       <test-names>
-        <test-name value="renders learn react link" />
+        <test-name value="ProfileStatus component" />
+        <test-name value="callback should be called" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus component.status from props should be in the state" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Components/Profile/Profileinfo/ProfileStatus.test.js" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="status from props should be in the state" />
       </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Moi pervi test 1" />
-        <item itemvalue="Jest.renders learn react link dcfsdf" />
-        <item itemvalue="Jest.renders learn react link (1)" />
-        <item itemvalue="Jest.renders learn react link" />
+        <item itemvalue="Jest.ProfileStatus component.after creation &lt;span&gt; should be displayed" />
+        <item itemvalue="Jest.ProfileStatus component.after creation &lt;input&gt; shouldn't be displayed" />
+        <item itemvalue="Jest.ProfileStatus component.callback should be called" />
+        <item itemvalue="Jest.ProfileStatus component" />
+        <item itemvalue="Jest.ProfileStatus component.status from props should be in the state" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +254,12 @@
       <workItem from="1611033164150" duration="15000" />
       <workItem from="1611033740138" duration="1446000" />
       <workItem from="1611035646246" duration="779000" />
-      <workItem from="1611036581690" duration="1142000" />
+      <workItem from="1611036581690" duration="1516000" />
+      <workItem from="1611042628313" duration="1815000" />
+      <workItem from="1611045911302" duration="454000" />
+      <workItem from="1611046444824" duration="587000" />
+      <workItem from="1611047276670" duration="1776000" />
+      <workItem from="1611049165849" duration="614000" />
     </task>
     <servers />
   </component>
